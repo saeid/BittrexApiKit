@@ -1,8 +1,7 @@
 # BittrexApiKit
 Swift client for Bittrex api. It support all APIs with most recent changes. more info [here](https://www.bittrex.com/Home/Api)
 
-```
-swift
+```swift
 let api = Bittrex(apikey: "api key", secretkey: "secret key")
 api.getMarkets() { (response) in
     switch response{
