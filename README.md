@@ -25,8 +25,7 @@ api.getBalance(currency: 'BTC') { (response) in
 
 ## Supported APIs
 ### Public APIs
-```
-swift
+```swift
     public func getMarkets()
     public func getCurrencies()
     public func getTicker()
@@ -37,8 +36,7 @@ swift
 ```
 
 ### Market APIs
-```
-swift
+```swift
     public func buyLimit(market: String, quantity: String, rate: String)
     public func sellLimit(market: String, quantity: String, rate: String)
     public func cancelBuySell(uuid: String)
@@ -46,8 +44,7 @@ swift
 ```
 
 ### Account APIs
-```
-swift
+```swift
     public func getBalances()
     public func getBalance(currency: String)
     public func getDepositAddress(currency: String)
