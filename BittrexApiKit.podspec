@@ -7,6 +7,7 @@ s.license          = 'MIT'
 s.author           = { "Saeid Basirnia" => "saeid.basirnia@gmail.com" }
 s.source           = { :git => "https://github.com/saeid/BittrexApiKit.git", :tag => "0.1.0"}
 
+s.swift-version = "4.0"
 s.platform     = :ios
 s.ios.deployment_target  = '10.0'
 s.requires_arc = true
