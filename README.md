@@ -59,6 +59,10 @@ public func getDepositHistory(currency: String)
 - iOS 10+
 
 
+## Installation
+You can simply install using Cocoapods
+```‍‍pod install 'BittrexApiKit'```
+
 ## Contribution
 You want help? That's great!
 submit a pull request! :grinning:
