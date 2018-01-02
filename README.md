@@ -2,6 +2,7 @@
 Swift client for Bittrex api. It support all APIs with most recent changes. more info [here](https://www.bittrex.com/Home/Api)
 
 ```
+swift
 let api = Bittrex(apikey: "api key", secretkey: "secret key")
 api.getMarkets() { (response) in
     switch response{
@@ -25,33 +26,36 @@ api.getBalance(currency: 'BTC') { (response) in
 ## Supported APIs
 ### Public APIs
 ```
-public func getMarkets()
-public func getCurrencies()
-public func getTicker()
-public func getMarketSummaries()
-public func getMarketSummary(market: String)
-public func getOrderBook(market: String)
-public func getMarketHistory(market: String)
+swift
+    public func getMarkets()
+    public func getCurrencies()
+    public func getTicker()
+    public func getMarketSummaries()
+    public func getMarketSummary(market: String)
+    public func getOrderBook(market: String)
+    public func getMarketHistory(market: String)
 ```
 
 ### Market APIs
 ```
-public func buyLimit(market: String, quantity: String, rate: String)
-public func sellLimit(market: String, quantity: String, rate: String)
-public func cancelBuySell(uuid: String)
-public func getOpenOrders(market: String)
+swift
+    public func buyLimit(market: String, quantity: String, rate: String)
+    public func sellLimit(market: String, quantity: String, rate: String)
+    public func cancelBuySell(uuid: String)
+    public func getOpenOrders(market: String)
 ```
 
 ### Account APIs
 ```
-public func getBalances()
-public func getBalance(currency: String)
-public func getDepositAddress(currency: String)
-public func withdraw(currency: String, quantity: String, address: String)
-public func getOrder(uuid: String)
-public func getOrderHistory(uuid: String)
-public func getWithdrawalHistory(currency: String)
-public func getDepositHistory(currency: String)
+swift
+    public func getBalances()
+    public func getBalance(currency: String)
+    public func getDepositAddress(currency: String)
+    public func withdraw(currency: String, quantity: String, address: String)
+    public func getOrder(uuid: String)
+    public func getOrderHistory(uuid: String)
+    public func getWithdrawalHistory(currency: String)
+    public func getDepositHistory(currency: String)
 ```
 
 ## Requirments
