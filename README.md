@@ -56,12 +56,20 @@ api.getBalance(currency: 'BTC') { (response) in
 
 ## Requirments
 - Swift 4+
-- iOS 10+
+- iOS 9+
 
 
 ## Installation
 You can simply install using Cocoapods
-```‍‍pod install 'BittrexApiKit'```
+```
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+use_frameworks!
+
+target '<Your Target Name>' do
+    pod 'BittrexApiKit'
+end
+```
 
 ## Contribution
 You want help? That's great!
